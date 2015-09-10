@@ -9,4 +9,4 @@ export JBOSS_HOME=/home/user/jbossas7.1.1
 
 Then simply cd into the directory of the example you want to run and 'mvn test'.
 
-The examples use [Arquillian](http://www.jboss.org/arquillian.html) to start the JBoss server and to run the example itself.
+The examples use [Arquillian](http://www.jboss.org/arquillian.html) to start the JBoss server and to run the example itself.mhjmhmjh
