@@ -1,0 +1,35 @@
+apiVersion: broker.amq.io/v1beta1
+kind: ActiveMQArtemis
+metadata:
+  name: broker
+  namespace: activemq-artemis-operator
+spec:
+  deploymentPlan:
+    size: 1
+    image: uberman:5000/artemiscloud/activemq-artemis-broker-kubernetes
+    livenessProbe:
+      exec:
+        command:
+          - /home/jboss/amq-broker/bin/artemis
+          - check
+          - queue
+          - --name
+          - $internal.livenessqueue
+          - --produce
+          - "1"
+          - --consume
+          - "1"
+          - --silent
+          - --user
+          - $AMQ_USER
+          - --password
+          - $AMQ_PASSWORD
+      initialDelaySeconds: 5
+      timeoutSeconds: 5
+  console:
+    expose: true
+  acceptors:
+      - name: "artemis"
+        port: 61617
+        protocols: core
+

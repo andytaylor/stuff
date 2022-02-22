@@ -1,0 +1,14 @@
+apiVersion: broker.amq.io/v1beta1
+kind: ActiveMQArtemisAddress
+metadata:
+  name: livenessqueue
+  namespace: activemq-artemis-operator
+spec:
+  addressName: livenessqueue
+  queueConfiguration:
+    purgeOnNoConsumers: false
+    maxConsumers: -1
+    durable: true
+    enabled: true
+  queueName: livenessqueue
+  routingType: anycast

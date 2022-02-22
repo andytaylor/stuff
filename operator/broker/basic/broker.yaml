@@ -1,0 +1,13 @@
+apiVersion: broker.amq.io/v1beta1
+kind: ActiveMQArtemis
+metadata:
+  name: broker
+  namespace: activemq-artemis-operator
+spec:
+  deploymentPlan:
+    size: 1
+    image: uberman:5000/artemiscloud/activemq-artemis-broker-kubernetes
+  acceptors:
+    - name: "artemis"
+      port: 61617
+      protocols: core
