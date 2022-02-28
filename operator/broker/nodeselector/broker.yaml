@@ -5,8 +5,10 @@ metadata:
   namespace: activemq-artemis-operator
 spec:
   deploymentPlan:
-    size: 0
+    size: 1
     image: uberman:5000/artemiscloud/activemq-artemis-broker-kubernetes
+    nodeSelector:
+      location: "production"
   acceptors:
     - name: "artemis"
       port: 61617

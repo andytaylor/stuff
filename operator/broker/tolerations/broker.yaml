@@ -5,9 +5,16 @@ metadata:
   namespace: activemq-artemis-operator
 spec:
   deploymentPlan:
-    size: 0
+    size: 1
     image: uberman:5000/artemiscloud/activemq-artemis-broker-kubernetes
+    tolerations:
+      - key: "example-key"
+        operator: "Exists"
+        effect: "NoSchedule"
+  console:
+    expose: true
   acceptors:
-    - name: "artemis"
-      port: 61617
-      protocols: core
+      - name: "artemis"
+        port: 61617
+        protocols: core
+

@@ -5,8 +5,17 @@ metadata:
   namespace: activemq-artemis-operator
 spec:
   deploymentPlan:
-    size: 0
+    size: 2
     image: uberman:5000/artemiscloud/activemq-artemis-broker-kubernetes
+    affinity:
+      nodeAffinity:
+        requiredDuringSchedulingIgnoredDuringExecution:
+          nodeSelectorTerms:
+            - matchExpressions:
+                - key: disktype
+                  operator: In
+                  values:
+                    - ssd
   acceptors:
     - name: "artemis"
       port: 61617
