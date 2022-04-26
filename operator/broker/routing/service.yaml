@@ -1,0 +1,19 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: broker-artemis-service
+  namespace: activemq-artemis-operator
+  labels:
+    ActiveMQArtemis: broker
+    application: broker-app
+spec:
+  ports:
+    - name: artemis-0
+      protocol: TCP
+      port: 61617
+      targetPort: 61617
+  selector:
+    ActiveMQArtemis: broker
+    application: broker-app
+status:
+  loadBalancer: {}

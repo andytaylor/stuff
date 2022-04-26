@@ -8,10 +8,12 @@ spec:
     size: 1
     image: uberman:5000/artemiscloud/activemq-artemis-broker-kubernetes:latest
     initImage: uberman:5000/artemiscloud/artemis-init-container:latest
-    clustered: true
+    clustered: false
   console:
     expose: true
-  acceptors:
-    - name: "artemis"
-      port: 61617
-      protocols: core
+  addressSettings:
+    applyRule: merge_all
+    addressSetting:
+      - match: '#'
+        redistributionDelay: 500
+        deadLetterAddress: DLQABC

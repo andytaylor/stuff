@@ -7,6 +7,7 @@ spec:
   deploymentPlan:
     size: 1
     image: uberman:5000/artemiscloud/activemq-artemis-broker-kubernetes
+    initImage: uberman:5000/artemiscloud/artemis-init-container:latest
     nodeSelector:
       location: "production"
   acceptors:

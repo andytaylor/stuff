@@ -8,7 +8,12 @@ spec:
     size: 1
     image: uberman:5000/artemiscloud/activemq-artemis-broker-kubernetes:latest
     initImage: uberman:5000/artemiscloud/artemis-init-container:latest
-    clustered: true
+    clustered: false
+  brokerProperties:
+    securityEnabled: "false"
+    rejectEmptyValidatedUser: "true"
+    populateValidatedUser: "true"
+    threadPoolMaxSize: "25"
   console:
     expose: true
   acceptors:

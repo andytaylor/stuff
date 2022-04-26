@@ -1,17 +1,22 @@
 apiVersion: broker.amq.io/v1beta1
 kind: ActiveMQArtemis
 metadata:
-  name: broker
+  name: router
   namespace: activemq-artemis-operator
 spec:
   deploymentPlan:
-    size: 1
+    size: 2
     image: uberman:5000/artemiscloud/activemq-artemis-broker-kubernetes:latest
     initImage: uberman:5000/artemiscloud/artemis-init-container:latest
     clustered: true
+  brokerProperties:
+    - "connectionRouters.autoShard.localTargetFilter=NULL|$STATEFUL_SET_ORDINAL"
+    - "connectionRouters.autoShard.keyType=CLIENT_ID"
+    - "connectionRouters.autoShard.policyConfiguration=NAME"
+    - "connectionRouters.autoShard.policyConfiguration.properties.MODULO=2"
   console:
     expose: true
   acceptors:
-    - name: "artemis"
+    - name: "router"
       port: 61617
       protocols: core

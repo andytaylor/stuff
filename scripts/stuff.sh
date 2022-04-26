@@ -1,0 +1,1 @@
+kubectl config set-context --current --namespace=activemq-artemis-operator

@@ -1,0 +1,32 @@
+apiVersion: broker.amq.io/v1beta1
+kind: ActiveMQArtemis
+metadata:
+  name: router
+  namespace: activemq-artemis-operator
+spec:
+  deploymentPlan:
+    size: 1
+    image: uberman:5000/artemiscloud/activemq-artemis-broker-kubernetes:latest
+    initImage: uberman:5000/artemiscloud/artemis-init-container:latest
+    clustered: true
+  brokerProperties:
+    - "connectorConfigurations.server0.params.host=broker-ss-0.broker-hdls-svc.activemq-artemis-operator.svc.cluster.local"
+    - "connectorConfigurations.server0.params.port=61617"
+    - "connectorConfigurations.server1.params.host=broker-ss-1.broker-hdls-svc.activemq-artemis-operator.svc.cluster.local"
+    - "connectorConfigurations.server1.params.port=61617"
+    - "connectionRouters.myRouter.keyType=CLIENT_ID"
+    - "connectionRouters.myRouter.keyFilter=^.{3}"
+    - "connectionRouters.myRouter.policyConfiguration=LEAST_CONNECTIONS"
+    - "connectionRouters.myRouter.cacheConfiguration.persisted=false"
+    - "connectionRouters.myRouter.poolConfiguration.staticConnectors.name=server0"
+    - "connectionRouters.myRouter.poolConfiguration.staticConnectors.name=server1"
+    - "connectionRouters.autoShard.localTargetFilter=NULL|$STATEFUL_SET_ORDINAL"
+    - "connectionRouters.autoShard.keyType=CLIENT_ID"
+    - "connectionRouters.autoShard.policyConfiguration=NAME"
+    - "connectionRouters.autoShard.policyConfiguration.properties.MODULO=2"
+  console:
+    expose: true
+  acceptors:
+    - name: "router"
+      port: 61617
+      protocols: core

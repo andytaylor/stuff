@@ -7,6 +7,7 @@ spec:
   deploymentPlan:
     size: 2
     image: uberman:5000/artemiscloud/activemq-artemis-broker-kubernetes
+    initImage: uberman:5000/artemiscloud/artemis-init-container:latest
     labels:
       location: "production"
       partition: "customerA"

@@ -4,11 +4,11 @@ metadata:
   name: livenessqueue
   namespace: activemq-artemis-operator
 spec:
-  addressName: livenessqueue
+  addressName: $internal.livenessqueue
   queueConfiguration:
     purgeOnNoConsumers: false
     maxConsumers: -1
     durable: true
     enabled: true
-  queueName: livenessqueue
+  queueName: $internal.livenessqueue
   routingType: anycast
