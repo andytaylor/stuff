@@ -16,8 +16,10 @@ spec:
    - "AMQPConnections.target.user=admin"
    - "AMQPConnections.target.password=password"
    - "AMQPConnections.target.autoStart=true"
-   - "AMQPConnections.target.connectionElements.mirror.messageAcknowledgements=true"
    - "AMQPConnections.target.connectionElements.mirror.type=MIRROR"
+   - "AMQPConnections.target.connectionElements.mirror.messageAcknowledgements=true"
+   - "AMQPConnections.target.connectionElements.mirror.queueCreation=true"
+   - "AMQPConnections.target.connectionElements.mirror.queueRemoval=true"
   console:
     expose: true
   acceptors:

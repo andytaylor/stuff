@@ -10,14 +10,16 @@ spec:
     initImage: quay.io/ataylor/artemis-init-container:latest
     clustered: true
   brokerProperties:
-   - "AMQPConnections.target.uri=tcp://targetbroker-ss-0.targetbroker-hdls-svc.activemq-artemis-operator.svc.cluster.local:61617"
+   - "AMQPConnections.target.uri=tcp://targetbroker-ss-0.targetbroker-hdls-svc.activemq-artemis-operator.svc.cluster.local:61617?clientFailureCheckPeriod=2000&connectionTTL=5000"
    - "AMQPConnections.target.retryInterval=5000"
    - "AMQPConnections.target.reconnect-attempts=-1"
    - "AMQPConnections.target.user=admin"
    - "AMQPConnections.target.password=password"
    - "AMQPConnections.target.autoStart=true"
-   - "AMQPConnections.target.connectionElements.mirror.messageAcknowledgements=true"
    - "AMQPConnections.target.connectionElements.mirror.type=MIRROR"
+   - "AMQPConnections.target.connectionElements.mirror.messageAcknowledgements=true"
+   - "AMQPConnections.target.connectionElements.mirror.queueCreation=true"
+   - "AMQPConnections.target.connectionElements.mirror.queueRemoval=true"
   console:
     expose: true
   acceptors:
