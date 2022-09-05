@@ -25,4 +25,4 @@ spec:
   acceptors:
     - name: "artemis"
       port: 61617
-      protocols: core
+      protocols: core,amqp

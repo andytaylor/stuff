@@ -1,0 +1,17 @@
+apiVersion: broker.amq.io/v1beta1
+kind: ActiveMQArtemis
+metadata:
+  name: broker
+  namespace: activemq-artemis-operator
+spec:
+  deploymentPlan:
+    size: 1
+    image: quay.io/ataylor/activemq-artemis-broker-kubernetes:latest
+    initImage: quay.io/ataylor/artemis-init-container:latest
+    clustered: true
+  console:
+    expose: true
+  acceptors:
+    - name: "artemis"
+      port: 61617
+      protocols: core,amqp

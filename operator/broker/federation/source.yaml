@@ -1,0 +1,23 @@
+apiVersion: broker.amq.io/v1beta1
+kind: ActiveMQArtemis
+metadata:
+  name: broker
+  namespace: activemq-artemis-operator
+spec:
+  deploymentPlan:
+    size: 1
+    image: quay.io/ataylor/activemq-artemis-broker-kubernetes:latest
+    initImage: quay.io/ataylor/artemis-init-container:latest
+    clustered: true
+  brokerProperties:
+    - "connectorConfigurations.server0.params.host=broker-ss-0.broker-hdls-svc.activemq-artemis-operator.svc.cluster.local"
+    - "connectorConfigurations.server0.params.port=61617"
+    - "connectorConfigurations.server1.params.host=broker-ss-1.broker-hdls-svc.activemq-artemis-operator.svc.cluster.local"
+    - "connectorConfigurations.server1.params.port=61617"
+    - "FederationConfigurations.myfed.upstreamConfiguration.myUpstream.connectionConfiguration.staticConnector"
+  console:
+    expose: true
+  acceptors:
+    - name: "artemis"
+      port: 61617
+      protocols: core,amqp

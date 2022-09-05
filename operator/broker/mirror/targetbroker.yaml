@@ -10,7 +10,7 @@ spec:
     initImage: quay.io/ataylor/artemis-init-container:latest
     clustered: true
   brokerProperties:
-   - "AMQPConnections.target.uri=tcp://sourcebroker-ss-0.sourcebroker-hdls-svc.activemq-artemis-operator.svc.cluster.local:61617"
+   - "AMQPConnections.target.uri=tcp://sourcebroker-ss-0.sourcebroker-hdls-svc.activemq-artemis-operator.svc.cluster.local:61617?clientFailureCheckPeriod=2000&connectionTTL=5000"
    - "AMQPConnections.target.retryInterval=5000"
    - "AMQPConnections.target.reconnect-attempts=-1"
    - "AMQPConnections.target.user=admin"
@@ -25,4 +25,4 @@ spec:
   acceptors:
     - name: "artemis"
       port: 61617
-      protocols: core
+      protocols: core,amqp
