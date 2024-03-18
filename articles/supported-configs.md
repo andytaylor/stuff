@@ -106,10 +106,10 @@ Notes:
 
 | Operating system              | .NET version                        |
 |-------------------------------|-------------------------------------|
-| RHEL 9                        | .NET Core 3.9                       |
-| RHEL 8                        | .NET Core 3.9                       |
-| Microsoft Windows Server 2019 | .NET Core 3.9 and .NET Platform x.y |
-| Microsoft Windows Server 2016 | .NET Core 3.9 and .NET Platform x.y |
+| RHEL 9                        | .NET Core 3.1                       |
+| RHEL 8                        | .NET Core 3.1                       |
+| Microsoft Windows Server 2019 | .NET Core 3.1 and .NET Platform 6.0 |
+| Microsoft Windows Server 2016 | .NET Core 3.1 and .NET Platform 6.0 |
 
 
 ### Standards and network protocols
