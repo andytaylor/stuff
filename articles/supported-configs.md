@@ -1,4 +1,4 @@
-# Red Hat AMQ clients 2023.Q1
+# Red Hat AMQ clients 2023.Q4
 
 This is the first release of AMQ clients as a quarterly release. A quarterly release contains any new minor or major versions 
 of a client that are available. Each minor or major release will receive support for 1 year and 6 months and will receive 
