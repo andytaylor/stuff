@@ -1,0 +1,14 @@
+from andy_fedora:latest
+
+USER ataylor
+RUN wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz -O /tmp/maven.tar.gz
+RUN cd /tmp && tar xvf maven.tar.gz
+RUN mkdir /home/ataylor/tools/maven
+RUN cp -R /tmp/apache-maven-3.9.6/* /home/ataylor/tools/maven/
+
+RUN ls -al
+ENV PATH=$PATH:/home/ataylor/tools/maven/bin
+RUN echo $PATH
+RUN java -version
+RUN mvn -version
+RUN ls -al home/ataylor/tools

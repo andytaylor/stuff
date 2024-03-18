@@ -1,0 +1,15 @@
+from andy_maven:latest
+
+USER ataylor
+RUN ls -al
+RUN echo $PATH
+RUN java -version
+RUN mvn -version
+RUN ls -al home
+WORKDIR /home/ataylor
+RUN git clone https://github.com/apache/activemq-artemis.git
+WORKDIR activemq-artemis
+RUN ls
+RUN mvn dependency:go-offline
+
+ENTRYPOINT ["/artemis_build.sh"]

@@ -1,0 +1,13 @@
+from fedora:latest
+
+ARG tag
+RUN dnf -y install java-11-openjdk-devel
+RUN dnf -y install wget
+RUN dnf -y install git
+USER root
+RUN groupadd -r ataylor
+RUN useradd -d /home/ataylor -r -u 1000 -g ataylor ataylor
+RUN mkhomedir_helper ataylor
+ENV ANDY_HOME=/home/ataylor
+USER ataylor
+RUN mkdir /home/ataylor/tools

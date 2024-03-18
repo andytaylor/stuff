@@ -1,0 +1,20 @@
+from artemis_base:latest
+
+ENV GIT_REPO=https://github.com/apache/activemq-artemis.git
+ENV GIT_TAG=main
+ARG ARTEMIS_REPO=https://github.com/apache/activemq-artemis.git
+
+RUN pwd
+COPY artemis_build.sh /home/ataylor/
+RUN ls
+USER root
+RUN chmod 755 /home/ataylor/artemis_build.sh
+USER ataylor
+RUN echo $PATH
+RUN java -version
+RUN mvn -version
+RUN ls -al /home/ataylor
+WORKDIR activemq-artemis
+RUN ls
+
+ENTRYPOINT ["/home/ataylor/artemis_build.sh"]
