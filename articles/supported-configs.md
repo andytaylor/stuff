@@ -26,13 +26,13 @@ Not all clients are supported on all operating systems. Specific client support 
 
 ## Supported Platforms
 
-| Client                                     | Platform                                        | Comments                               |
-|--------------------------------------------|-------------------------------------------------|----------------------------------------|
-| Apache Qpid JMS                            | OpenJDK 11 & 17, Oracle JDK 11 & 17, IBM JDK 11 | Windows is tested with Oracle JDK only |
-| Red Hat build of AMQP 1.0 JMS Spring Boot  | OpenJDK 11 & 17, Oracle JDK 11 & 17, IBM JDK 11 | Windows is tested with Oracle JDK only |
-| Red Hat build of Apache Qpid ProtonJ2      | OpenJDK 11 & 17, Oracle JDK 11 & 17, IBM JDK 11 | Windows is tested with Oracle JDK only |                                              
-| Red Hat build of Apache Qpid Proton DotNet | NET 6.0                                         |                                        |                                           
-| Red Hat build of Rhea                      | Node.js 18                                      |                                        |
+| Client                                     | Platform                                                    | Comments                               |
+|--------------------------------------------|-------------------------------------------------------------|----------------------------------------|
+| Apache Qpid JMS                            | OpenJDK 11 & 17, Oracle JDK 11 & 17, IBM Semeru JDK 11 & 17 | Windows is tested with Oracle JDK only |
+| Red Hat build of AMQP 1.0 JMS Spring Boot  | OpenJDK 11 & 17, Oracle JDK 11 & 17, IBM Semeru JDK 11 & 17 | Windows is tested with Oracle JDK only |
+| Red Hat build of Apache Qpid ProtonJ2      | OpenJDK 11 & 17, Oracle JDK 11 & 17, IBM Semeru JDK 11 & 17 | Windows is tested with Oracle JDK only |                                              
+| Red Hat build of Apache Qpid Proton DotNet | NET 6.0                                                     |                                        |                                           
+| Red Hat build of Rhea                      | Node.js 18                                                  |                                        |
 
 Note: Earlier versions of the JDK are not supported.
 
