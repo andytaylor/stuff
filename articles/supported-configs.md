@@ -1,4 +1,4 @@
-# Red Hat AMQ clients 2023.Q4
+## Red Hat AMQ clients 2023.Q4
 
 This is the first release of AMQ clients as a quarterly release. A quarterly release contains any new minor or major versions 
 of a client that are available. Each minor or major release will receive support for 1 year and 6 months and will receive 
@@ -14,7 +14,7 @@ backward compatible.
 
 Not all clients are supported on all operating systems. Specific client support is documented in the section titled Specific supported clients and OSs.
 
-## Supported Operating Systems
+### Supported Operating Systems
 
 | Operating system                         | Architecture |
 |------------------------------------------|--------------|
@@ -24,7 +24,7 @@ Not all clients are supported on all operating systems. Specific client support 
 | Microsoft Windows Server 2016            | x86_64       |
 | Microsoft Windows 10 and 11 Professional | x86_64       |                                            
 
-## Supported Platforms
+### Supported Platforms
 
 | Client                                     | Platform                                                    | Comments                               |
 |--------------------------------------------|-------------------------------------------------------------|----------------------------------------|
@@ -36,7 +36,7 @@ Not all clients are supported on all operating systems. Specific client support 
 
 Note: Earlier versions of the JDK are not supported.
 
-## Standards and network protocols
+### Standards and network protocols
 
 The following standards and protocols are supported where applicable for each client. 
 
