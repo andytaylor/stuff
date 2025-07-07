@@ -40,9 +40,9 @@ Not all clients are supported on all operating systems. Specific client support 
 
 | Client                                     | Platform                                                             | Comments                               |
 |--------------------------------------------|----------------------------------------------------------------------|----------------------------------------|
-| Apache Qpid JMS                            | OpenJDK 11,17 & 21, Oracle JDK 11,17 & 21, IBM Semeru JDK 11,17 & 21 | Windows is tested with Oracle JDK only |
-| Red Hat build of AMQP 1.0 JMS Spring Boot  | OpenJDK 11,17 & 21, Oracle JDK 11,17 & 21, IBM Semeru JDK 11,17 & 21 | Windows is tested with Oracle JDK only |
-| Red Hat build of Apache Qpid ProtonJ2      | OpenJDK 11,17 & 21, Oracle JDK 11,17 & 21, IBM Semeru JDK 11,17 & 21 | Windows is tested with Oracle JDK only |                                              
+| Apache Qpid JMS                            | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | Windows is tested with Oracle JDK only |
+| Red Hat build of AMQP 1.0 JMS Spring Boot  | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | Windows is tested with Oracle JDK only |
+| Red Hat build of Apache Qpid ProtonJ2      | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | Windows is tested with Oracle JDK only |                                              
 | Red Hat build of Apache Qpid Proton DotNet | NET 6.0                                                              |                                        |                                           
 | Red Hat build of Rhea                      | Node.js 18                                                           |                                        |
 | Red Hat Build of Apache Qpid Proton        |                                                                      |                                        |
