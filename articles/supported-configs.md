@@ -9,9 +9,9 @@ CVE fixes or Critical bug fixes. Please refer to the [Detailed Product Life Cycl
 
 | Operating system                         | Architecture |
 |------------------------------------------|--------------|
-| Microsoft Windows Server 2019            | x86_64       |                                              
+| Microsoft Windows Server 2019            | x86_64       |
 | Microsoft Windows Server 2016            | x86_64       |
-| Microsoft Windows 11 Professional        | x86_64       |      
+| Microsoft Windows 11 Professional        | x86_64       |
 
 ## Red Hat AMQ clients 2025.Q2
 
@@ -32,20 +32,20 @@ Not all clients are supported on all operating systems. Specific client support 
 |------------------------------------------|--------------|
 | RHEL 9                                   | X86_64       |
 | RHEL 8                                   | x86_64       |
-| Microsoft Windows Server 2019            | x86_64       |                                              
+| Microsoft Windows Server 2019            | x86_64       |
 | Microsoft Windows Server 2016            | x86_64       |
-| Microsoft Windows 11 Professional        | x86_64       |                                            
+| Microsoft Windows 11 Professional        | x86_64       |
 
 ### Supported Platforms
 
 | Client                                     | Platform                                                             | Comments                               |
 |--------------------------------------------|----------------------------------------------------------------------|----------------------------------------|
-| Apache Qpid JMS                            | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | Windows is tested with Oracle JDK only |
-| Red Hat build of AMQP 1.0 JMS Spring Boot  | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | Windows is tested with Oracle JDK only |
-| Red Hat build of Apache Qpid ProtonJ2      | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | Windows is tested with Oracle JDK only |                                              
-| Red Hat build of Apache Qpid Proton DotNet | NET 6.0                                                              |                                        |                                           
+| Apache Qpid JMS                            | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | OpenJDK 17 & 21                        |
+| Red Hat build of AMQP 1.0 JMS Spring Boot  | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | OpenJDK 17 & 21                        |
+| Red Hat build of Apache Qpid ProtonJ2      | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | OpenJDK 17 & 21                        |
+| Red Hat build of Apache Qpid Proton DotNet | NET 6.0                                                              |                                        |
 | Red Hat build of Rhea                      | Node.js 18                                                           |                                        |
-| Red Hat Build of Apache Qpid Proton        |                                                                      |                                        |
+| Red Hat Build of Apache Qpid Proton        |                                                                      | std:c++17, Python 3.9                  |
 
 Note: Earlier versions of the JDK are not supported.
 
