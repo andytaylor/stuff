@@ -43,11 +43,12 @@ Not all clients are supported on all operating systems. Specific client support 
 | Apache Qpid JMS                            | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | OpenJDK 17 & 21                        |
 | Red Hat build of AMQP 1.0 JMS Spring Boot  | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | OpenJDK 17 & 21                        |
 | Red Hat build of Apache Qpid ProtonJ2      | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | OpenJDK 17 & 21                        |
-| Red Hat build of Apache Qpid Proton DotNet | NET 6.0                                                              |                                        |
+| Red Hat build of Apache Qpid Proton DotNet | NET 8.0                                                              |                                        |
 | Red Hat build of Rhea                      | Node.js 18                                                           |                                        |
 | Red Hat Build of Apache Qpid Proton        |                                                                      | std:c++17, Python 3.9                  |
 
 Note: Earlier versions of the JDK are not supported.
+Note: Spring Boot Starter version 2 (javax) is not released anymore, use Spring Boot Starter version 3 (jakarta).
 
 ### Standards and network protocols
 
