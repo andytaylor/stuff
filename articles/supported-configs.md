@@ -1,19 +1,4 @@
-## Red Hat AMQ clients 2025.Q3
-
-This quarterly release only ships the Red Hat build of Apache Qpid proton on the windows platform, all other clients were release in the Red Hat AMQ clients 2025.Q2 release.
-
-This release will receive support for 1 year and 6 months and will receive 
-CVE fixes or Critical bug fixes. Please refer to the [Detailed Product Life Cycle Policy](https://access.redhat.com/articles/7052871). 
-
-### Supported Operating Systems
-
-| Operating system                         | Architecture |
-|------------------------------------------|--------------|
-| Microsoft Windows Server 2019            | x86_64       |
-| Microsoft Windows Server 2016            | x86_64       |
-| Microsoft Windows 11 Professional        | x86_64       |
-
-## Red Hat AMQ clients 2025.Q2
+## Red Hat AMQ clients 2026.Q1
 
 This is a quarterly release of AMQ Clients. A quarterly release contains any new minor or major versions 
 of a client that are available. Each minor or major release will receive support for 1 year and 6 months and will receive 
@@ -44,8 +29,6 @@ Not all clients are supported on all operating systems. Specific client support 
 | Red Hat build of AMQP 1.0 JMS Spring Boot  | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | OpenJDK 17 & 21                        |
 | Red Hat build of Apache Qpid ProtonJ2      | OpenJDK 17 & 21, Oracle JDK 17 & 21, IBM Semeru JDK 17 & 21          | OpenJDK 17 & 21                        |
 | Red Hat build of Apache Qpid Proton DotNet | NET 8.0                                                              |                                        |
-| Red Hat build of Rhea                      | Node.js 18                                                           |                                        |
-| Red Hat Build of Apache Qpid Proton        |                                                                      | std:c++17, Python 3.9                  |
 
 Note: Earlier versions of the JDK are not supported.
 Note: Spring Boot Starter version 2 (javax) is not released anymore, use Spring Boot Starter version 3 (jakarta).
@@ -58,3 +41,5 @@ The following standards and protocols are supported where applicable for each cl
 - Version 1.0 of the [Advanced Message Queueing Protocol (AMQP)](https://access.redhat.com/bounce/?externalURL=http%3A%2F%2Fwww.amqp.org%2F)
 - Version 1.0 of the AMQP JMS Mapping
 - Modern [TCP](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc793) with [IPv6](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc2460)
+
+Note: The Red Hat build of Rhea and the Red Hat Build of Apache Qpid Proton were not released this quarter as there were mo updates to it
