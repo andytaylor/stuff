@@ -5,7 +5,7 @@ This quarterly release only ships the Red Hat build of Apache Qpid proton on the
 This release will receive support for 1 year and 6 months and will receive
 CVE fixes or Critical bug fixes. Please refer to the [Detailed Product Life Cycle Policy](https://access.redhat.com/articles/7052871).
 
-### Supported Operating Systems
+###Supported Operating Systems
 
 | Operating system                         | Architecture |
 |------------------------------------------|--------------|
@@ -26,7 +26,7 @@ backward compatible.
 
 Not all clients are supported on all operating systems. Specific client support is documented in the section titled Specific supported clients and OSs.
 
-### Supported Operating Systems
+###Supported Operating Systems
 
 | Operating system                         | Architecture |
 |------------------------------------------|--------------|
@@ -36,7 +36,7 @@ Not all clients are supported on all operating systems. Specific client support 
 | Microsoft Windows Server 2016            | x86_64       |
 | Microsoft Windows 11 Professional        | x86_64       |
 
-### Supported Platforms
+###Supported Platforms
 
 | Client                                     | Platform                                                             | Comments                               |
 |--------------------------------------------|----------------------------------------------------------------------|----------------------------------------|
@@ -50,14 +50,14 @@ Not all clients are supported on all operating systems. Specific client support 
 Note: Earlier versions of the JDK are not supported.
 Note: Spring Boot Starter version 2 (javax) is not released anymore, use Spring Boot Starter version 3 (jakarta).
 
-### Standards and network protocols
+###Standards and network protocols
 
 The following standards and protocols are supported where applicable for each client.
 
 - Version 2.0 of the [Java Message Service API](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Fjcp.org%2Fen%2Fjsr%2Fdetail%3Fid%3D343)
-- Version 1.0 of the [Advanced Message Queueing Protocol (AMQP)](https://access.redhat.com/bounce/?externalURL=http%3A%2F%2Fwww.amqp.org%2F)
-- Version 1.0 of the AMQP JMS Mapping
-- Modern [TCP](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc793) with [IPv6](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc2460)
+  - Version 1.0 of the [Advanced Message Queueing Protocol (AMQP)](https://access.redhat.com/bounce/?externalURL=http%3A%2F%2Fwww.amqp.org%2F)
+  - Version 1.0 of the AMQP JMS Mapping
+  - Modern [TCP](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc793) with [IPv6](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc2460)
 
 ## Red Hat AMQ clients 2023.Q4
 
@@ -90,9 +90,9 @@ Note: Earlier versions of the JDK are not supported.
 The following standards and protocols are supported where applicable for each client. 
 
 - Version 2.0 of the [Java Message Service API](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Fjcp.org%2Fen%2Fjsr%2Fdetail%3Fid%3D343)
-- Version 1.0 of the [Advanced Message Queueing Protocol (AMQP)](https://access.redhat.com/bounce/?externalURL=http%3A%2F%2Fwww.amqp.org%2F)
-- Version 1.0 of the AMQP JMS Mapping
-- Modern [TCP](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc793) with [IPv6](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc2460)
+  - Version 1.0 of the [Advanced Message Queueing Protocol (AMQP)](https://access.redhat.com/bounce/?externalURL=http%3A%2F%2Fwww.amqp.org%2F)
+  - Version 1.0 of the AMQP JMS Mapping
+  - Modern [TCP](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc793) with [IPv6](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc2460)
 
 ##  Red Hat AMQ clients 2.11 {#clients}
 
@@ -141,13 +141,13 @@ The AMQ JMS client is supported on the following OSs and JVMs.
 
 Notes:
 + Earlier versions of the JDK are not supported.
-+ The AMQ JMS Client supports the use of the AMQ Pool library.
-####Standards and network protocols
+  + The AMQ JMS Client supports the use of the AMQ Pool library.
+  ####Standards and network protocols
 
-+ Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -164,8 +164,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -182,16 +182,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Mozilla Firefox
-  Note:  Microsoft Internet Explorer is no longer supported for use with Broker consoles.
+  + Mozilla Firefox
+    Note:  Microsoft Internet Explorer is no longer supported for use with Broker consoles.
 
 ###AMQ Python details {#python_details}
 
@@ -209,8 +209,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -230,7 +230,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -249,8 +249,8 @@ The following clients support XA transactions.
 The following clients support the use of the AMQ Pool library
 
 + AMQ JMS Client
-+ AMQ Core Protocol JMS
-+ AMQ OpenWire JMS
+  + AMQ Core Protocol JMS
+  + AMQ OpenWire JMS
 
 Note:  The AMQ Pool library is supported with these clients when used on OS and JVM combinations that are supported by the client.
 
@@ -305,9 +305,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -324,8 +324,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -342,16 +342,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Mozilla Firefox
-  Note:  Microsoft Internet Explorer is no longer supported for use with Broker consoles.
+  + Mozilla Firefox
+    Note:  Microsoft Internet Explorer is no longer supported for use with Broker consoles.
 
 ###AMQ Python details {#python_details}
 
@@ -369,8 +369,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -390,7 +390,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -458,9 +458,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -478,8 +478,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -497,16 +497,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -525,8 +525,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -546,7 +546,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -610,9 +610,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -628,8 +628,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -645,16 +645,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -667,8 +667,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -685,7 +685,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -751,9 +751,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -769,8 +769,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -786,16 +786,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -808,8 +808,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -826,7 +826,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -893,9 +893,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -911,8 +911,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -928,16 +928,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -950,8 +950,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -966,7 +966,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -1034,9 +1034,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -1052,8 +1052,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -1069,16 +1069,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -1091,8 +1091,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -1107,7 +1107,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -1170,9 +1170,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -1186,8 +1186,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -1201,16 +1201,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -1223,8 +1223,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -1237,7 +1237,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -1303,9 +1303,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -1319,8 +1319,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -1334,16 +1334,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -1357,8 +1357,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -1371,7 +1371,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -1436,9 +1436,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -1452,8 +1452,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -1467,16 +1467,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -1489,8 +1489,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -1503,7 +1503,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -1566,9 +1566,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -1582,8 +1582,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -1598,16 +1598,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -1620,8 +1620,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -1634,7 +1634,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -1701,9 +1701,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -1720,8 +1720,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -1738,16 +1738,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Mozilla Firefox
-Note:  Microsoft Internet Explorer is no longer supported for use with Broker consoles.  
+  + Mozilla Firefox
+  Note:  Microsoft Internet Explorer is no longer supported for use with Broker consoles.  
 
 ###AMQ Python details {#python_details}
 
@@ -1765,8 +1765,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -1786,7 +1786,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -1854,9 +1854,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -1874,8 +1874,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -1893,16 +1893,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -1921,8 +1921,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -1942,7 +1942,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -2006,9 +2006,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -2024,8 +2024,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -2041,16 +2041,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -2063,8 +2063,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -2081,7 +2081,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -2147,9 +2147,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -2165,8 +2165,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -2182,16 +2182,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -2204,8 +2204,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -2222,7 +2222,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -2289,9 +2289,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -2307,8 +2307,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -2324,16 +2324,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -2346,8 +2346,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -2362,7 +2362,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -2430,9 +2430,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -2448,8 +2448,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -2465,16 +2465,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -2487,8 +2487,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -2503,7 +2503,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -2566,9 +2566,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -2582,8 +2582,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -2597,16 +2597,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -2619,8 +2619,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -2633,7 +2633,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -2699,9 +2699,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -2715,8 +2715,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -2730,16 +2730,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -2753,8 +2753,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -2767,7 +2767,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -2832,9 +2832,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -2848,8 +2848,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -2863,16 +2863,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -2885,8 +2885,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -2899,7 +2899,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
@@ -2962,9 +2962,9 @@ Note: Earlier versions of the JDK are not supported.
 ####Standards and network protocols
 
 + Version 2.0 of the [Java Message Service](https://jcp.org/en/jsr/detail?id=343) API
-+ Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Version 1.0 of the AMQP JMS Mapping
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
+  + Version 1.0 of the AMQP JMS Mapping
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ C++ details {#cpp_details}
 
@@ -2978,8 +2978,8 @@ The AMQ C++ client is supported on the following OSs with the compilers and stan
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ JavaScript details {#javascript_details}
 
@@ -2994,16 +2994,16 @@ The AMQ JavaScript client is supported on the following OSs and JavaScript runti
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ####Supported browsers {#javascript_browsers}
 
 Supported browsers include the following:
 
 + Google Chrome
-+ Microsoft Internet Explorer
-+ Mozilla Firefox
+  + Microsoft Internet Explorer
+  + Mozilla Firefox
 
 ###AMQ Python details {#python_details}
 
@@ -3016,8 +3016,8 @@ The AMQ Python client is supported on the following OSs and languages.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Versions 1.0, 1.1, and 1.2 of the [Transport Layer Security](https://tools.ietf.org/html/rfc5246) (TLS) protocol, the successor to SSL
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 ###AMQ .NET details {#net_details}
 
@@ -3030,7 +3030,7 @@ The AMQ .NET client is supported with the following OS and runtime.
 ####Standards and network protocols
 
 + Version 1.0 of the [Advanced Message Queueing Protocol](http://www.amqp.org/) (AMQP)
-+ Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
+  + Modern [TCP](https://tools.ietf.org/html/rfc793) with [IPv6](https://tools.ietf.org/html/rfc2460)
 
 [1] Red Hat expects that customers will remain on a supported environment. In the event that a JVM, operating system, database, etc., or its version is no longer supported by its vendor, Red Hat may be limited in its ability to provide support and may require you to reproduce the issue in a supported environment for continued assistance.
 
