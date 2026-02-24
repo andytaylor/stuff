@@ -42,4 +42,4 @@ The following standards and protocols are supported where applicable for each cl
 - Version 1.0 of the AMQP JMS Mapping
 - Modern [TCP](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc793) with [IPv6](https://access.redhat.com/bounce/?externalURL=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc2460)
 
-Note: The Red Hat build of Rhea and the Red Hat Build of Apache Qpid Proton were not released this quarter as there were mo updates to it
+Note: The Red Hat build of Rhea and the Red Hat Build of Apache Qpid Proton were not released this quarter as there were no updates to it, see [Previous Clients Releases](https://access.redhat.com/articles/5043041)
